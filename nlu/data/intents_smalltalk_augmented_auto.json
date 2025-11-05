@@ -1,0 +1,258 @@
+[
+  {
+    "intent": "Greeting",
+    "description": "User greets the assistant.",
+    "examples": [
+      "Hello there!",
+      "Hi!",
+      "Good morning!",
+      "Good evening!",
+      "Namaste!",
+      "Hey, how are you?"
+    ],
+    "patterns": [
+      "Hello there! na?",
+      "Hi! na?",
+      "Thoda Good morning!",
+      "Please Namaste!",
+      "Please Hello there!",
+      "Good morning!",
+      "Hey, how are you? na?",
+      "Hi!",
+      "Namaste! na?",
+      "Good morning! na?",
+      "Could you please Hi!",
+      "Thoda Good evening!",
+      "Namaste!",
+      "Thoda Hey, how are you?",
+      "Hey, how are you?",
+      "Good evening! na?",
+      "Good evening!",
+      "Hello there!"
+    ]
+  },
+  {
+    "intent": "Farewell",
+    "description": "User ends the conversation politely.",
+    "examples": [
+      "Goodbye!",
+      "See you later.",
+      "Take care.",
+      "Bye bye!",
+      "Talk to you soon."
+    ],
+    "patterns": [
+      "Kindly See you later.",
+      "Kindly Take care.",
+      "Goodbye!",
+      "Take care. na?",
+      "Talk to you soon. na?",
+      "Goodbye! na?",
+      "See you later.",
+      "Thoda Bye bye!",
+      "Bye bye! na?",
+      "Bye bye!",
+      "Talk to you soon.",
+      "See you later. na?",
+      "Please Talk to you soon.",
+      "Take care.",
+      "Could you please Goodbye!"
+    ]
+  },
+  {
+    "intent": "SmallTalkMood",
+    "description": "User asks or comments about mood or day.",
+    "examples": [
+      "How are you doing today?",
+      "How’s your day going?",
+      "Are you happy today?",
+      "You sound cheerful!",
+      "You seem quiet today."
+    ],
+    "patterns": [
+      "You seem quiet today.",
+      "Kindly You sound cheerful!",
+      "Are you happy today? na?",
+      "Thoda You seem quiet today.",
+      "Please How’s your day going?",
+      "Are you happy today?",
+      "Zara Are you happy today?",
+      "You sound cheerful! na?",
+      "How’s your day going?",
+      "How’s your day going? na?",
+      "Kindly How are you doing today?",
+      "You sound cheerful!",
+      "You seem quiet today. na?",
+      "How are you doing today?",
+      "How are you doing today? na?"
+    ]
+  },
+  {
+    "intent": "SmallTalkBotIdentity",
+    "description": "User asks about the bot’s identity or origin.",
+    "examples": [
+      "Who are you?",
+      "What are you?",
+      "Are you a robot?",
+      "Where do you live?",
+      "Who made you?"
+    ],
+    "patterns": [
+      "Who are you?",
+      "Please Who made you?",
+      "Where do you live?",
+      "Please What are you?",
+      "Where do you live? na?",
+      "Who made you? na?",
+      "What are you? na?",
+      "Zara Where do you live?",
+      "What are you?",
+      "Are you a robot? na?",
+      "Kindly Who are you?",
+      "Are you a robot?",
+      "Could you please Are you a robot?",
+      "Who are you? na?",
+      "Who made you?"
+    ]
+  },
+  {
+    "intent": "SmallTalkJoke",
+    "description": "User asks the bot to tell a joke or funny story.",
+    "examples": [
+      "Tell me a joke.",
+      "Make me laugh.",
+      "Say something funny.",
+      "Do you know any jokes?",
+      "Make me smile."
+    ],
+    "patterns": [
+      "Say something funny. na?",
+      "Make me smile. na?",
+      "Could you please Say something funny.",
+      "Tell me a joke.",
+      "Do you know any jokes? na?",
+      "Make me smile.",
+      "Make me laugh. na?",
+      "Kindly Make me smile.",
+      "Say something funny.",
+      "Kindly Make me laugh.",
+      "Do you know any jokes?",
+      "Kindly Do you know any jokes?",
+      "Could you please Tell me a joke.",
+      "Tell me a joke. na?",
+      "Make me laugh."
+    ]
+  },
+  {
+    "intent": "SmallTalkWeather",
+    "description": "User asks about weather or temperature.",
+    "examples": [
+      "How’s the weather today?",
+      "Is it raining outside?",
+      "Is it hot today?",
+      "Will it be cold tomorrow?",
+      "What’s the weather like?"
+    ],
+    "patterns": [
+      "How’s the weather today?",
+      "Is it raining outside? na?",
+      "Zara Is it raining outside?",
+      "Is it hot today? na?",
+      "How’s the weather today? na?",
+      "Thoda Is it hot today?",
+      "Will it be cold tomorrow?",
+      "What’s the weather like? na?",
+      "Zara How’s the weather today?",
+      "Is it raining outside?",
+      "Thoda Will it be cold tomorrow?",
+      "Will it be cold tomorrow? na?",
+      "What’s the weather like?",
+      "Could you please What’s the weather like?",
+      "Is it hot today?"
+    ]
+  },
+  {
+    "intent": "SmallTalkBotOpinion",
+    "description": "User asks the bot’s opinion or preference.",
+    "examples": [
+      "Do you like music?",
+      "What’s your favorite color?",
+      "Do you enjoy talking to me?",
+      "What do you think about me?",
+      "Do you get bored?"
+    ],
+    "patterns": [
+      "What’s your favorite color?",
+      "Do you like music?",
+      "Do you enjoy talking to me? na?",
+      "Thoda Do you get bored?",
+      "Do you get bored?",
+      "Kindly What’s your favorite color?",
+      "Do you like music? na?",
+      "What’s your favorite color? na?",
+      "Kindly Do you like music?",
+      "What do you think about me? na?",
+      "Thoda What do you think about me?",
+      "Do you enjoy talking to me?",
+      "Could you please Do you enjoy talking to me?",
+      "Do you get bored? na?",
+      "What do you think about me?"
+    ]
+  },
+  {
+    "intent": "SmallTalkEncouragement",
+    "description": "User seeks motivation, compliments, or reassurance.",
+    "examples": [
+      "Say something nice.",
+      "Can you cheer me up?",
+      "I need some motivation.",
+      "Tell me something positive.",
+      "Say something sweet."
+    ],
+    "patterns": [
+      "Please Can you cheer me up?",
+      "Say something nice.",
+      "I need some motivation. na?",
+      "I need some motivation.",
+      "Could you please Tell me something positive.",
+      "Say something nice. na?",
+      "Please Say something nice.",
+      "Can you cheer me up?",
+      "Tell me something positive.",
+      "Zara I need some motivation.",
+      "Say something sweet.",
+      "Can you cheer me up? na?",
+      "Thoda Say something sweet.",
+      "Tell me something positive. na?",
+      "Say something sweet. na?"
+    ]
+  },
+  {
+    "intent": "SmallTalkDailyRoutine",
+    "description": "User engages in general daily conversation.",
+    "examples": [
+      "How was your day?",
+      "What are you doing today?",
+      "Did you eat?",
+      "I just woke up.",
+      "I’m going to sleep soon."
+    ],
+    "patterns": [
+      "I just woke up. na?",
+      "Did you eat?",
+      "What are you doing today?",
+      "How was your day?",
+      "What are you doing today? na?",
+      "How was your day? na?",
+      "I just woke up.",
+      "Did you eat? na?",
+      "Could you please What are you doing today?",
+      "I’m going to sleep soon. na?",
+      "Please I’m going to sleep soon.",
+      "Could you please Did you eat?",
+      "Zara How was your day?",
+      "Kindly I just woke up.",
+      "I’m going to sleep soon."
+    ]
+  }
+]

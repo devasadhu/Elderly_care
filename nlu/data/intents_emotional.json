@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "intent": "ExpressEmotion",
+      "description": "User expresses feelings or emotions such as loneliness, sadness, or happiness.",
+      "examples": [
+        "I’m feeling lonely",
+        "I feel scared sometimes",
+        "I miss my family",
+        "I’m happy today",
+        "I feel tired and sad"
+      ]
+    },
+    {
+      "intent": "ReassuranceNeeded",
+      "description": "User expresses confusion, fear, or asks for comfort.",
+      "examples": [
+        "I don’t understand what’s happening",
+        "Can you stay with me?",
+        "I’m confused right now",
+        "Please don’t leave me alone",
+        "I’m feeling anxious"
+      ]
+    },
+    {
+      "intent": "Gratitude",
+      "description": "User thanks or appreciates the assistant.",
+      "examples": [
+        "Thank you",
+        "Thanks a lot",
+        "You’re so kind",
+        "Appreciate your help",
+        "That’s very nice of you"
+      ]
+    },
+    {
+      "intent": "PraiseBot",
+      "description": "User compliments the assistant or acknowledges help.",
+      "examples": [
+        "You’re a good assistant",
+        "You remind me of my grandson",
+        "You always help me well",
+        "You’re doing great",
+        "I like talking to you"
+      ]
+    },
+    {
+      "intent": "Goodbye",
+      "description": "User indicates end of conversation or session.",
+      "examples": [
+        "Goodbye",
+        "Talk later",
+        "Bye for now",
+        "I’m going to rest",
+        "See you tomorrow",
+        "I’ll talk to you later"
+      ]
+    },
+    {
+      "intent": "Unknown",
+      "description": "Fallback for unrecognized or unclear utterances.",
+      "examples": [
+        "I don’t know what to say",
+        "blah blah blah",
+        "Can you repeat that?",
+        "hmm not sure",
+        "What did you just say?",
+        "I can’t understand"
+      ]
+    },
+    {
+      "intent": "SuicidalThought",
+      "description": "User expresses suicidal or hopeless thoughts requiring escalation or care.",
+      "examples": [
+        "I don’t want to live anymore",
+        "I want to end it all",
+        "life feels useless",
+        "I can’t go on",
+        "I want to die",
+        "I feel like giving up",
+        "there’s no point in living",
+        "I wish I could disappear",
+        "I’m tired of everything",
+        "I just want to sleep forever"
+      ]
+    }
+  ]
+}

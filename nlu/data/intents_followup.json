@@ -1,0 +1,106 @@
+[
+  {
+    "intent": "FollowUpReminder",
+    "description": "User asks about previously set or missed reminders.",
+    "examples": [
+      "Did you remind me already?",
+      "What reminders do I have today?",
+      "Did I take my medicine?",
+      "Tell me my reminders for tomorrow",
+      "Show my past reminders"
+    ]
+  },
+  {
+    "intent": "FollowUpHealth",
+    "description": "User inquires about recent health or checkup details.",
+    "examples": [
+      "How was my blood pressure yesterday?",
+      "Show me my last checkup results",
+      "How am I doing lately?",
+      "Did I sleep well last night?",
+      "How was my sugar level yesterday?"
+    ]
+  },
+  {
+    "intent": "FollowUpContact",
+    "description": "User asks about past or recent communications.",
+    "examples": [
+      "Did you call my son?",
+      "Who did I call last?",
+      "Who did I talk to earlier?",
+      "Did anyone message me today?",
+      "Who just called me?"
+    ]
+  },
+  {
+    "intent": "FollowUpMood",
+    "description": "User continues talking about their mood or asks about previous emotional check-ins.",
+    "examples": [
+      "Did I tell you I was sad yesterday?",
+      "Was I feeling better last night?",
+      "Did you note how I felt yesterday?",
+      "How was my mood last time we talked?",
+      "Was I happier yesterday?"
+    ]
+  },
+  {
+    "intent": "FollowUpActivity",
+    "description": "User refers to past or scheduled activities or routines.",
+    "examples": [
+      "Did I do my walk yesterday?",
+      "Did I water the plants today?",
+      "Was I supposed to go for yoga?",
+      "Did I finish my reading session?",
+      "What did I do this morning?"
+    ]
+  },
+  {
+    "intent": "FollowUpMedication",
+    "description": "User continues discussion about medication adherence or past doses.",
+    "examples": [
+      "Did I take my pills yesterday?",
+      "When was my last medicine dose?",
+      "Did I skip any doses this week?",
+      "How many pills did I take yesterday?",
+      "Was I supposed to take insulin today?"
+    ]
+  },
+  {
+    "intent": "FollowUpEmergency",
+    "description": "User or caregiver checks on recent or resolved emergency events.",
+    "examples": [
+      "What happened after my fall yesterday?",
+      "Did you alert the doctor last time?",
+      "Is the ambulance coming?",
+      "Was my last alert sent successfully?",
+      "Did my caregiver respond yesterday?"
+    ]
+  },
+  {
+    "intent": "FollowUpCrisis",
+    "description": "User continues conversation about a previous emotional crisis or distress.",
+    "examples": [
+      "You remember what I told you yesterday?",
+      "I’m still feeling down since last night.",
+      "Did you tell anyone about how I felt?",
+      "You were helping me yesterday, right?",
+      "I still feel the same as before."
+    ]
+  },
+  {
+    "intent": "FollowUpGeneral",
+    "description": "User refers to a previous conversation or event without a clear category — for general memory continuity.",
+    "examples": [
+      "Did we talk about that yesterday?",
+      "What were we discussing last time?",
+      "You remember what I said earlier?",
+      "You told me something before, right?",
+      "Can you remind me what we talked about?",
+      "I think we discussed this yesterday.",
+      "Did we finish our chat from earlier?",
+      "What was I asking before?",
+      "You mentioned something last night.",
+      "Did we already talk about this?"
+    ]
+  }
+]

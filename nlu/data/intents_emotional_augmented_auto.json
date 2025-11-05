@@ -1,0 +1,232 @@
+{
+  "intents": [
+    {
+      "intent": "ExpressEmotion",
+      "description": "User expresses feelings or emotions such as loneliness, sadness, or happiness.",
+      "examples": [
+        "I’m feeling lonely",
+        "I feel scared sometimes",
+        "I miss my family",
+        "I’m happy today",
+        "I feel tired and sad"
+      ],
+      "patterns": [
+        "I feel scared sometimes na?",
+        "Please I miss my family",
+        "Kindly I’m feeling lonely",
+        "I’m happy today na?",
+        "I’m feeling lonely na?",
+        "Could you please I feel scared sometimes",
+        "I miss my family",
+        "Could you please I’m happy today",
+        "I feel tired and sad",
+        "I’m happy today",
+        "I’m feeling lonely",
+        "I feel tired and sad na?",
+        "I feel scared sometimes",
+        "Thoda I feel tired and sad",
+        "I miss my family na?"
+      ]
+    },
+    {
+      "intent": "ReassuranceNeeded",
+      "description": "User expresses confusion, fear, or asks for comfort.",
+      "examples": [
+        "I don’t understand what’s happening",
+        "Can you stay with me?",
+        "I’m confused right now",
+        "Please don’t leave me alone",
+        "I’m feeling anxious"
+      ],
+      "patterns": [
+        "Please don’t leave me alone",
+        "Can you stay with me?",
+        "Thoda Can you stay with me?",
+        "I’m feeling anxious",
+        "Kindly I’m feeling anxious",
+        "Please I’m confused right now",
+        "I don’t understand what’s happening na?",
+        "Can you stay with me? na?",
+        "Thoda I don’t understand what’s happening",
+        "I’m feeling anxious na?",
+        "Please don’t leave me alone na?",
+        "I’m confused right now na?",
+        "I don’t understand what’s happening",
+        "I’m confused right now"
+      ]
+    },
+    {
+      "intent": "Gratitude",
+      "description": "User thanks or appreciates the assistant.",
+      "examples": [
+        "Thank you",
+        "Thanks a lot",
+        "You’re so kind",
+        "Appreciate your help",
+        "That’s very nice of you"
+      ],
+      "patterns": [
+        "Please You’re so kind",
+        "Kindly Thank you",
+        "You’re so kind na?",
+        "Appreciate your help na?",
+        "You’re so kind",
+        "Kindly Thanks a lot",
+        "Thanks a lot",
+        "That’s very nice of you na?",
+        "Thank you na?",
+        "Thoda Appreciate your help",
+        "Thank you",
+        "Appreciate your help",
+        "That’s very nice of you",
+        "Thanks a lot na?",
+        "Zara That’s very nice of you"
+      ]
+    },
+    {
+      "intent": "PraiseBot",
+      "description": "User compliments the assistant or acknowledges help.",
+      "examples": [
+        "You’re a good assistant",
+        "You remind me of my grandson",
+        "You always help me well",
+        "You’re doing great",
+        "I like talking to you"
+      ],
+      "patterns": [
+        "Kindly You always help me well",
+        "Thoda You remind me of my grandson",
+        "I like talking to you na?",
+        "You remind me of my grandson",
+        "You’re doing great na?",
+        "You remind me of my grandson na?",
+        "You always help me well na?",
+        "Kindly You’re a good assistant",
+        "You always help me well",
+        "You’re doing great",
+        "I like talking to you",
+        "You’re a good assistant",
+        "Could you please You’re doing great",
+        "You’re a good assistant na?",
+        "Zara I like talking to you"
+      ]
+    },
+    {
+      "intent": "Goodbye",
+      "description": "User indicates end of conversation or session.",
+      "examples": [
+        "Goodbye",
+        "Talk later",
+        "Bye for now",
+        "I’m going to rest",
+        "See you tomorrow",
+        "I’ll talk to you later"
+      ],
+      "patterns": [
+        "Thoda Bye for now",
+        "I’m going to rest",
+        "I’ll talk to you later",
+        "Goodbye",
+        "Zara I’m going to rest",
+        "See you tomorrow na?",
+        "Bye for now na?",
+        "Kindly See you tomorrow",
+        "Talk later na?",
+        "I’m going to rest na?",
+        "Bye for now",
+        "See you tomorrow",
+        "Kindly Goodbye",
+        "I’ll talk to you later na?",
+        "Talk later",
+        "Thoda I’ll talk to you later",
+        "Please Talk later",
+        "Goodbye na?"
+      ]
+    },
+    {
+      "intent": "Unknown",
+      "description": "Fallback for unrecognized or unclear utterances.",
+      "examples": [
+        "I don’t know what to say",
+        "blah blah blah",
+        "Can you repeat that?",
+        "hmm not sure",
+        "What did you just say?",
+        "I can’t understand"
+      ],
+      "patterns": [
+        "I can’t understand na?",
+        "Can you repeat that?",
+        "Zara I don’t know what to say",
+        "Hmm not sure",
+        "hmm not sure na?",
+        "What did you just say? na?",
+        "I don’t know what to say",
+        "blah blah blah",
+        "Thoda hmm not sure",
+        "Can you repeat that? na?",
+        "Please blah blah blah",
+        "Could you please Can you repeat that?",
+        "Blah blah blah",
+        "blah blah blah na?",
+        "Could you please I can’t understand",
+        "hmm not sure",
+        "I don’t know what to say na?",
+        "What did you just say?",
+        "I can’t understand",
+        "Kindly What did you just say?"
+      ]
+    },
+    {
+      "intent": "SuicidalThought",
+      "description": "User expresses suicidal or hopeless thoughts requiring escalation or care.",
+      "examples": [
+        "I don’t want to live anymore",
+        "I want to end it all",
+        "life feels useless",
+        "I can’t go on",
+        "I want to die",
+        "I feel like giving up",
+        "there’s no point in living",
+        "I wish I could disappear",
+        "I’m tired of everything",
+        "I just want to sleep forever"
+      ],
+      "patterns": [
+        "life feels useless na?",
+        "I want to die",
+        "Kindly there’s no point in living",
+        "Please I want to die",
+        "I feel like giving up na?",
+        "I’m tired of everything na?",
+        "I can’t go on na?",
+        "there’s no point in living",
+        "Thoda I can’t go on",
+        "Thoda I’m tired of everything",
+        "I want to die na?",
+        "I wish I could disappear",
+        "I don’t want to live anymore na?",
+        "I wish I could disappear na?",
+        "I don’t want to live anymore",
+        "Life feels useless",
+        "I want to end it all na?",
+        "Kindly I don’t want to live anymore",
+        "I wish i could disappear",
+        "I just want to sleep forever",
+        "I can’t go on",
+        "Thoda I wish I could disappear",
+        "Could you please life feels useless",
+        "I want to end it all",
+        "life feels useless",
+        "There’s no point in living",
+        "I feel like giving up",
+        "Kindly I just want to sleep forever",
+        "Zara I feel like giving up",
+        "I just want to sleep forever na?",
+        "I’m tired of everything",
+        "there’s no point in living na?",
+        "Thoda I want to end it all"
+      ]
+    }
+  ]
+}

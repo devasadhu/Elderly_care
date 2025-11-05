@@ -1,0 +1,282 @@
+[
+  {
+    "intent": "ExpressEmotion",
+    "description": "User expresses feelings or emotions such as loneliness, sadness, or happiness.",
+    "examples": [
+      "I’m feeling lonely",
+      "I feel scared sometimes",
+      "I miss my family",
+      "I’m happy today",
+      "I feel tired and sad"
+    ]
+  },
+  {
+    "intent": "ReassuranceNeeded",
+    "description": "User expresses confusion, fear, or asks for comfort.",
+    "examples": [
+      "I don’t understand what’s happening",
+      "Can you stay with me?",
+      "I’m confused right now",
+      "Please don’t leave me alone",
+      "I’m feeling anxious"
+    ]
+  },
+  {
+    "intent": "Gratitude",
+    "description": "User thanks or appreciates the assistant.",
+    "examples": [
+      "Thank you",
+      "Thanks a lot",
+      "You’re so kind",
+      "Appreciate your help",
+      "That’s very nice of you"
+    ]
+  },
+  {
+    "intent": "PraiseBot",
+    "description": "User compliments the assistant or acknowledges help.",
+    "examples": [
+      "You’re a good assistant",
+      "You remind me of my grandson",
+      "You always help me well",
+      "You’re doing great",
+      "I like talking to you"
+    ]
+  },
+  {
+    "intent": "Goodbye",
+    "description": "User indicates end of conversation or session.",
+    "examples": [
+      "Goodbye",
+      "Talk later",
+      "Bye for now",
+      "I’m going to rest",
+      "See you tomorrow",
+      "I’ll talk to you later"
+    ]
+  },
+  {
+    "intent": "Unknown",
+    "description": "Fallback for unrecognized or unclear utterances.",
+    "examples": [
+      "I don’t know what to say",
+      "blah blah blah",
+      "Can you repeat that?",
+      "hmm not sure",
+      "What did you just say?",
+      "I can’t understand"
+    ]
+  },
+  
+  {
+    "intent": "Greeting",
+    "examples": [
+      "Hello beta!",
+      "Namaste ji!",
+      "Hi re, kaise ho?",
+      "Good morning, son!",
+      "Vanakkam!",
+      "Kem cho?",
+      "Are you there, dear?",
+      "Good evening, bacche!",
+      "Hey beta, good to see you!"
+    ]
+  },
+  {
+    "intent": "Goodbye",
+    "examples": [
+      "Bye beta, take care!",
+      "Good night, baccha!",
+      "Phir milte hain!",
+      "Talk to you later, son!",
+      "See you tomorrow!",
+      "Take rest na!",
+      "Okay dear, bye bye!",
+      "Poi vaaram paakalam!",
+      "Have a nice day!"
+    ]
+  },
+  {
+    "intent": "ExpressEmotion",
+    "examples": [
+      "I’m feeling very lonely today beta.",
+      "Mujhe akela lag raha hai.",
+      "I miss my family a lot.",
+      "Dil thoda udaas hai aaj.",
+      "Feeling tired re.",
+      "Romba kashtama irukku today.",
+      "I’m happy today, thank you beta!",
+      "Aaj khush hoon, tumse baat karke achha laga."
+    ]
+  },
+  {
+    "intent": "ReassuranceNeeded",
+    "examples": [
+      "Please stay with me beta.",
+      "Don’t go haan?",
+      "I’m scared right now.",
+      "Mujhe thoda darr lag raha hai.",
+      "Can you hold on for a bit?",
+      "I’m confused, can you explain again?",
+      "Please don’t leave me alone.",
+      "Thoda baat karo na, mann nahi lag raha."
+    ]
+  },
+  {
+    "intent": "Gratitude",
+    "examples": [
+      "Thank you so much beta.",
+      "Shukriya, you’re very sweet.",
+      "Bahut badiya help ki tumne.",
+      "You always help me, thank you dear.",
+      "Appreciate your kindness.",
+      "Thanks re, tum bahut acche ho."
+    ]
+  },
+  {
+    "intent": "PraiseBot",
+    "examples": [
+      "You talk so nicely, beta!",
+      "You remind me of my grandson.",
+      "Bahut pyare ho tum.",
+      "You always make me smile.",
+      "You’re very helpful.",
+      "Nalla paiyan/ponnu neenga!",
+      "Tame toh maja nu che!"
+    ]
+  },
+  {
+    "intent": "ReminderSetup",
+    "examples": [
+      "Remind me to take medicine at 8.",
+      "Please remind me for doctor’s visit tomorrow.",
+      "Mujhe chai peene ka reminder lagao.",
+      "Set alarm for my walk at 6.",
+      "Kal subah tablet lene ka yaad dilana.",
+      "Remind me to call my daughter.",
+      "8 baje khana khane ka reminder daal do."
+    ]
+  },
+  {
+    "intent": "HealthCheck",
+    "examples": [
+      "How is my sugar level today?",
+      "Kal BP high tha kya?",
+      "Check my blood pressure please.",
+      "Mera health report dikhana.",
+      "Did I sleep well last night?",
+      "En BP eppadi irukku?",
+      "Show me my last checkup results."
+    ]
+  },
+  {
+    "intent": "EmergencyHelp",
+    "examples": [
+      "Help, I fell down!",
+      "Doctor ko bulao please!",
+      "Mujhe saans nahi aa rahi!",
+      "Call ambulance now!",
+      "Beta, kuch ho gaya hai.",
+      "Help me please!",
+      "Enaku romba kastama irukku, call help!"
+    ]
+  },
+  {
+    "intent": "CrisisSupport",
+    "examples": [
+      "I feel like giving up beta.",
+      "Mujhe lagta hai sab khatam ho gaya.",
+      "I don’t want to live anymore.",
+      "Please talk to me, I’m not okay.",
+      "Dil bahut udaas hai aaj.",
+      "I feel useless.",
+      "Life doesn’t feel worth it now.",
+      "Main akela mehsoos kar raha hoon, help me please."
+    ]
+  },
+  {
+    "intent": "FollowUpReminder",
+    "examples": [
+      "Did you remind me already?",
+      "Mujhe kal ka reminder mila tha kya?",
+      "Did I take my medicine yesterday?",
+      "What are my reminders today?",
+      "Kal ka yaad dilaya tha kya?",
+      "Tell me my reminders for tomorrow.",
+      "Show my missed reminders beta."
+    ]
+  },
+  {
+    "intent": "FollowUpHealth",
+    "examples": [
+      "How was my BP yesterday?",
+      "Did I take my sugar test?",
+      "Show my last health report.",
+      "Kal ka oxygen level batana.",
+      "How am I doing lately?",
+      "Mujhe lagta hai kal fever tha."
+    ]
+  },
+  {
+    "intent": "FollowUpContact",
+    "examples": [
+      "Did you call my son?",
+      "Who did I talk to earlier?",
+      "Kal kisse baat hui thi?",
+      "Did anyone message me today?",
+      "Who called me in the morning?",
+      "Aaj kisi ne phone kiya kya?"
+    ]
+  },
+  {
+    "intent": "SmallTalkJoke",
+    "examples": [
+      "Tell me a funny joke!",
+      "Kuch mazedar sunao!",
+      "Make me laugh beta!",
+      "Say something funny please!",
+      "Hasa do mujhe zara.",
+      "Do you know any jokes?",
+      "Enna oru joke sollu!"
+    ]
+  },
+  {
+    "intent": "SmallTalkEncouragement",
+    "examples": [
+      "Say something nice to me.",
+      "Thoda motivate karo na.",
+      "Tell me something good.",
+      "Bol na beta, sab thik ho jayega.",
+      "Can you cheer me up?",
+      "Give me some hope today."
+    ]
+  },
+  {
+    "intent": "Unknown",
+    "examples": [
+      "Hmm not sure what to say.",
+      "Kya bolu samajh nahi aa raha.",
+      "Can you repeat that?",
+      "Aapne kya kaha?",
+      "Sorry beta, mujhe samajh nahi aaya.",
+      "Haan bolo firse please."
+    ]
+  },
+
+  {
+  "intent": "CrisisSupport",
+  "description": "User expresses hopelessness, suicidal thoughts, or severe emotional distress. The system should respond empathetically and alert a caregiver or helpline if possible.",
+  "examples": [
+    "I don’t want to live anymore",
+    "I feel like giving up",
+    "Life is too hard",
+    "I’m tired of living",
+    "Nobody cares about me",
+    "I just want everything to stop",
+    "I feel worthless",
+    "I want to end it all",
+    "I can’t take this anymore",
+    "I’m done with everything"
+  ]
+}
+]

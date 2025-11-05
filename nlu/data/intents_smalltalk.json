@@ -1,0 +1,102 @@
+[
+  {
+    "intent": "Greeting",
+    "description": "User greets the assistant.",
+    "examples": [
+      "Hello there!",
+      "Hi!",
+      "Good morning!",
+      "Good evening!",
+      "Namaste!",
+      "Hey, how are you?"
+    ]
+  },
+  {
+    "intent": "Farewell",
+    "description": "User ends the conversation politely.",
+    "examples": [
+      "Goodbye!",
+      "See you later.",
+      "Take care.",
+      "Bye bye!",
+      "Talk to you soon."
+    ]
+  },
+  {
+    "intent": "SmallTalkMood",
+    "description": "User asks or comments about mood or day.",
+    "examples": [
+      "How are you doing today?",
+      "How’s your day going?",
+      "Are you happy today?",
+      "You sound cheerful!",
+      "You seem quiet today."
+    ]
+  },
+  {
+    "intent": "SmallTalkBotIdentity",
+    "description": "User asks about the bot’s identity or origin.",
+    "examples": [
+      "Who are you?",
+      "What are you?",
+      "Are you a robot?",
+      "Where do you live?",
+      "Who made you?"
+    ]
+  },
+  {
+    "intent": "SmallTalkJoke",
+    "description": "User asks the bot to tell a joke or funny story.",
+    "examples": [
+      "Tell me a joke.",
+      "Make me laugh.",
+      "Say something funny.",
+      "Do you know any jokes?",
+      "Make me smile."
+    ]
+  },
+  {
+    "intent": "SmallTalkWeather",
+    "description": "User asks about weather or temperature.",
+    "examples": [
+      "How’s the weather today?",
+      "Is it raining outside?",
+      "Is it hot today?",
+      "Will it be cold tomorrow?",
+      "What’s the weather like?"
+    ]
+  },
+  {
+    "intent": "SmallTalkBotOpinion",
+    "description": "User asks the bot’s opinion or preference.",
+    "examples": [
+      "Do you like music?",
+      "What’s your favorite color?",
+      "Do you enjoy talking to me?",
+      "What do you think about me?",
+      "Do you get bored?"
+    ]
+  },
+  {
+    "intent": "SmallTalkEncouragement",
+    "description": "User seeks motivation, compliments, or reassurance.",
+    "examples": [
+      "Say something nice.",
+      "Can you cheer me up?",
+      "I need some motivation.",
+      "Tell me something positive.",
+      "Say something sweet."
+    ]
+  },
+  {
+    "intent": "SmallTalkDailyRoutine",
+    "description": "User engages in general daily conversation.",
+    "examples": [
+      "How was your day?",
+      "What are you doing today?",
+      "Did you eat?",
+      "I just woke up.",
+      "I’m going to sleep soon."
+    ]
+  }
+]
